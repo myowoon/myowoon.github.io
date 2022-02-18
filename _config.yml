@@ -5,6 +5,8 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   일상을 기록하는 블로그입니다. 
 
+google_analytics: G-0ZWN7CV18L
+
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
