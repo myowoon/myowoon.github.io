@@ -27,10 +27,10 @@ layout: default
 
       {%- if page.categories -%}
         {% for category in page.categories %}
-          <span class="post-category">
+          <a class="post-category" href="{{ site.baseurl }}/categories/{{ category }}">
             {{ category }}
             {%- if forloop.last == false %}, {% endif -%}
-          </span>
+          </a>
         {% endfor %}
       {%- endif -%}
     </p>
